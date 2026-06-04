@@ -147,6 +147,53 @@ To get drain current equation in saturation region we will replace Vds as Vgs-Vt
 
 According to the equation, the mosfet acts as perfect current source. But this is not true, when we increase Vds we will that Depletion region at drain increases and so channel length further reduces.Therefore, we see a slight dependency of Vds over Id. This is called "Channel Length Modulation".
 
+ ### Introduction to SPICE
+### L1 Basic SPICE setup
+
+<img width="990" height="565" alt="image" src="https://github.com/user-attachments/assets/0c84b06e-0c87-4c8e-94a3-5b3d3a585c12" />
+
+The encircled parameters arwe called spice model parameters. These may or may not be constants.
+
+These are directly coming from the foundary, we don't need to derive them.
+
+<img width="240" height="448" alt="image" src="https://github.com/user-attachments/assets/f038e7f4-4482-4d00-8047-1139db3f5b11" />
+
+
+### L2 Circuit description in SPICE syntax
+
+To define a spice netlist :
+
+-firstly nodes are identified
+
+ <img width="583" height="388" alt="image" src="https://github.com/user-attachments/assets/6b6dcc11-3517-428b-9dcc-83357b096cf1" />
+
+-nodes are named.
+
+-code is written
+
+<img width="1255" height="586" alt="image" src="https://github.com/user-attachments/assets/562d1285-208e-452e-8af4-8c7bc1397877" />
+
+### L3 Define technology parameters
+
+<img width="514" height="299" alt="image" src="https://github.com/user-attachments/assets/462c5b94-bb37-4fa6-826e-8eeb99004a1d" />
+
+<img width="564" height="228" alt="image" src="https://github.com/user-attachments/assets/ced04329-5c48-46f0-b02d-4e9c3c553a6c" />
+
+
+ -Stars("*") are used for comments.
+ 
+ -Inside the brackets, technology paramteters will exist. Similarly for pmos also.
+ 
+ -Plugging in the packaged file in .mod file and call this file in top level SPICE netlist.
+
+  ### L4 First SPICE simulation
+
+
+
+
+
+
+
 
 
 
