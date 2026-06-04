@@ -8,7 +8,7 @@ This repository contains my work, images and stimulations results from the VSD C
    ### Introduction to Circuit Design and SPICE simulation
    ### L1 Why do we need SPICE simulations?
    SPICE is used to simulate and analyze electronic circuits before actually building them.
-   The clock Tree synthesis, crosstalks, and timing are built on SPICE (Simulation Program with Integrated Circuit Emphasis), without SPICE there won't be delay and if there are no delays physical design flow, crosstalk won't make any sense.
+   The clock Tree synthesis, crosstalks, and timing are built on SPICE (Simulation Program with Integrated Circuit Emphasis), without SPICE there won't be delay      and if there are no delays physical design flow, crosstalk won't make any sense.
     
  <img width="1327" height="664" alt="image" src="https://github.com/user-attachments/assets/5819c6a9-d84d-4ace-ac4e-359fd8e61bc5" />
 
@@ -16,6 +16,7 @@ This repository contains my work, images and stimulations results from the VSD C
  For a buffer, delay depends mainly on:
 
  -Input Slew (how fast the input signal rises/falls).
+ 
  -Output Load Capacitance (how much capacitance the output has to drive.
 
 So instead of having one fixed delay, the buffer has many possible delays.
@@ -24,6 +25,7 @@ So instead of having one fixed delay, the buffer has many possible delays.
  <img width="1133" height="460" alt="image" src="https://github.com/user-attachments/assets/d24d4d07-cf9d-47b9-9755-467f1edf0d13" />
 
  -Threshold Voltage
+ 
    -When Vgs=0 => source and drain terminal both are grounded, Body is also ground. 
    P-substrate and n+ act as PN junction diode and as there is no potential so there is a high resistance. 
    No channel formation is there.
@@ -37,6 +39,7 @@ So instead of having one fixed delay, the buffer has many possible delays.
    <img width="1249" height="613" alt="image" src="https://github.com/user-attachments/assets/5791693c-ae12-433d-9cf5-a7503b54fa03" />
 
    -strong inversion
+   
 At a certain gate voltage:
 
 Electron concentration near the surface becomes greater than hole concentration.
@@ -55,6 +58,7 @@ This layer is called the inversion channel.
  <img width="1275" height="577" alt="image" src="https://github.com/user-attachments/assets/346c70e1-4707-44b3-97a7-66db141c2fdb" />
 
  ### L4 Threshold voltage with positive substrate potential
+ 
  Semiconductor surface inverts to n tye at Vgs = Vto + V1
  
  <img width="1342" height="629" alt="image" src="https://github.com/user-attachments/assets/ed7bd1f1-5df6-45bf-b396-f89d3af809b9" />
