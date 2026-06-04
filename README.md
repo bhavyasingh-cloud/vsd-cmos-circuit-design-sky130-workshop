@@ -187,6 +187,13 @@ To define a spice netlist :
  -Plugging in the packaged file in .mod file and call this file in top level SPICE netlist.
 
   ### L4 First SPICE simulation
+  <img width="953" height="564" alt="image" src="https://github.com/user-attachments/assets/6e966048-88e1-4c82-8a13-c891c07db18f" />
+
+  <img width="1002" height="548" alt="image" src="https://github.com/user-attachments/assets/02072bf2-1c5d-4911-bd0a-b63adfaeca68" />
+  <img width="867" height="679" alt="image" src="https://github.com/user-attachments/assets/6be42a51-c639-49e3-9a51-8c3b22007deb" />
+
+
+
 
 
 
