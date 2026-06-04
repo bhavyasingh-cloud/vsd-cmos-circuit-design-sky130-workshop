@@ -101,6 +101,58 @@ On applying Vds, every point on x axis will vary w.r.t to Vgs-V(x), this will de
 
 <img width="1403" height="693" alt="image" src="https://github.com/user-attachments/assets/d5f6100b-182d-4703-af6c-1acd580f1ca2" /><img width="408" height="426" alt="image" src="https://github.com/user-attachments/assets/e097dcc4-bc40-41e3-99f0-a93431dffa76" />
 
+The effective channel voltage will vary w.r.t x.
+
+for example at x=0, Vgs=1V and V(x)=0, So the Vgs-Vx=1V. 
+
+At x=Vds=0.05V, Vgs-Vx=0.95V. Now if we see the induced chagre equation, it is proportional to the effective channel voltage.
+
+As we know there are two types of currents; Dift and Diffusion current, Here there is Drift current due to potential difference across the channel.
+
+###  L3 Drain current model for linear region of operation
+To get the drain current, the top view of transistor is required.
+<img width="687" height="638" alt="image" src="https://github.com/user-attachments/assets/f49fcef3-21a9-40d9-bfb6-85750d3332ec" />
+<img width="413" height="595" alt="image" src="https://github.com/user-attachments/assets/f5d457e5-debe-479d-8027-8cd1a9d5b294" />
+<img width="438" height="449" alt="image" src="https://github.com/user-attachments/assets/f4cfa9db-33e1-4ee2-bfff-4542b9587e1a" />
+<img width="683" height="426" alt="image" src="https://github.com/user-attachments/assets/62d5de09-e978-495d-8b3a-09b27ac883da" />
+
+### L4 SPICE conclusion to resistive operation
+<img width="1237" height="568" alt="image" src="https://github.com/user-attachments/assets/50951011-55d2-4721-b847-c7c9bcb92533" />
+
+ TO ANSWER How do we calculate Id for different values of 'Vgs' and at every value of 'Vgs', sweep Vds till (Vgs-Vt) using linear equation for Id?
+We need to do SPICE simulations.
+
+### L5 Pinch-off region condition
+
+-Saturation Region
+The region of operation when Drain-source voltage exceeds the value (Vgs-Vt), the region of operation is called "Saturation Region".
+In this regio the channel is saturated and can not do anything further.
+
+When Vgs-Vds is greater than Vt, there will be a conducting channel.
+
+When Vgs-Vds is equal to Vt, we will see at drain side, just Inversion has happened as it is equal to Vt, so channel will start disappearing at drain side.
+
+-Pinch off Voltage
+When the channel starts to disappear, is termed as "Pinch off region"
+
+<img width="1307" height="609" alt="image" src="https://github.com/user-attachments/assets/63cf7655-6bb8-4e94-bcd9-65757c87a4e5" />
+
+### L6 Drain current model for saturation region of operation
+
+<img width="1211" height="622" alt="image" src="https://github.com/user-attachments/assets/f67bb23c-c791-4c39-b68f-c844afee5cc3" />
+
+In saturation region, the channel voltage will remain constant as 'Vgs-Vt', and the drain current will not depend on Vds.
+To get drain current equation in saturation region we will replace Vds as Vgs-Vt.
+
+
+According to the equation, the mosfet acts as perfect current source. But this is not true, when we increase Vds we will that Depletion region at drain increases and so channel length further reduces.Therefore, we see a slight dependency of Vds over Id. This is called "Channel Length Modulation".
+
+
+
+
+
+
+
 
 
 
