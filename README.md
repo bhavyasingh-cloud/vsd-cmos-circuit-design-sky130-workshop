@@ -3,7 +3,7 @@ CMOS circuit design and spice simulations using Sky130 technology
 ## About
 This repository contains my work, images and stimulations results from the VSD CMOS Circuit Design and SPICE simulation workshop using Sky130 technology.
 ## Course Flow
-### DAY 1 Basics of NMOS Drain current (Id) vs Drain-to-source Voltage (Vds)
+## DAY 1 Basics of NMOS Drain current (Id) vs Drain-to-source Voltage (Vds)
    #### Topics covered
    ### Introduction to Circuit Design and SPICE simulation
    ### L1 Why do we need SPICE simulations?
@@ -83,12 +83,34 @@ This phenomenon is called the Body Effect.
 
 note : The parameters such as Gamma comes from foundaries after simulation of which in SPICE we get the value for Vt (Threshold Voltage).
 
- 
+### NMOS resistive region and saturation region of operation
+###  L1 Resistive region of operation with small drain-source voltage
+<img width="825" height="523" alt="image" src="https://github.com/user-attachments/assets/98ff41be-5638-45f8-a8b7-d7128a31719f" />
+
+For "Resistive region" of operation we apply Drain-source voltage. If we keep on increasing the Gate-source voltage, the channel width keeps on increasing.
+The net Induced charges is propotional to (Vgs-Vt).
+
+Now let's apply very small Vds at start. And keep Vt=0.45V, Vgs also small initially.
+We can see that the source is grounded and Drain is at some potential, so there will also be a voltage gradient accross the channel.
+
+Also, the Effective channel length is much lesser than the original channel length.
+y-axis represents the width of transistor and x axis is the voltage across the channel.
+On applying Vds, every point on x axis will vary w.r.t to Vgs-V(x), this will decide the current equation.
+
+### L2 Drift current theory
+
+<img width="1403" height="693" alt="image" src="https://github.com/user-attachments/assets/d5f6100b-182d-4703-af6c-1acd580f1ca2" /><img width="408" height="426" alt="image" src="https://github.com/user-attachments/assets/e097dcc4-bc40-41e3-99f0-a93431dffa76" />
 
 
-   
+
+
+
+
+
+
 
 ### DAY 2
+
 ### DAY 3
 ### DAY 4
 ### DAY 5
