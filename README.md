@@ -297,7 +297,7 @@ Observation 2 - The saturation current for lower nodes is low instead of being h
 <img width="1274" height="561" alt="Screenshot 2026-06-05 093531" src="https://github.com/user-attachments/assets/545421cc-182c-4f35-916a-7b36d9db1d55" />
 
 ### L5 Labs Sky130 Id-Vgs
-
+ /home/vsduser/Pictures/Screenshots/Screenshot from 2026-06-05 15-27-01.png
 
 ### L6 Labs Sky130 Vt
 
