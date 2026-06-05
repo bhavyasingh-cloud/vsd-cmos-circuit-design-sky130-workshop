@@ -234,7 +234,7 @@ Below is the spice deck, where only the values of W and L is changed, rest every
 
 <img width="787" height="486" alt="Screenshot 2026-06-05 083333" src="https://github.com/user-attachments/assets/d164e057-a7fe-40cd-8d80-1c258515bea6" />
 
-## L2 Drain current vs gate voltage for long and short channel device
+### L2 Drain current vs gate voltage for long and short channel device
 Now we are comparing between Long and Short channel device
 
 <img width="1341" height="715" alt="Screenshot 2026-06-05 082845" src="https://github.com/user-attachments/assets/6d0fe567-63ec-4d3f-b8b5-3946e808be0f" />
@@ -256,7 +256,7 @@ velocity saturation: is a phenomenon that occurs in short-channel MOSFETs when t
 
 <img width="1357" height="668" alt="Screenshot 2026-06-05 090333" src="https://github.com/user-attachments/assets/0f81471d-5f82-4030-9530-1a67e5abb93f" />
 
-## L3 Velocity saturation at lower and higher electric fields
+### L3 Velocity saturation at lower and higher electric fields
 For short channel we will see more of a linear behaviour as the Vgs increases. This is due to velocity saturation effect.
 
 <img width="986" height="488" alt="Screenshot 2026-06-05 092209" src="https://github.com/user-attachments/assets/a756b1e8-ceb5-40b1-b728-13c93aae4edf" />
@@ -271,7 +271,7 @@ Velocity saturation happens for higher gate-source voltages.
 
 <img width="949" height="418" alt="Screenshot 2026-06-05 092410" src="https://github.com/user-attachments/assets/fa7b0b01-5235-463b-9931-8d87687fc1b3" />
 
-## L4 Velocity saturation drain current model
+### L4 Velocity saturation drain current model
 Let us take Vgs-Vt=Vgt because we will be taking Vgs as large values. Current equation we will be using as shown above, For lower values of Vds we will neglect the 'lambda' term.
 
 There is one more technology paramter which is "Vdsat", it is the velocity of gate when the device just enters the Velocity saturation region.
@@ -296,14 +296,14 @@ Observation 2 - The saturation current for lower nodes is low instead of being h
 
 <img width="1274" height="561" alt="Screenshot 2026-06-05 093531" src="https://github.com/user-attachments/assets/545421cc-182c-4f35-916a-7b36d9db1d55" />
 
-## L5 Labs Sky130 Id-Vgs
+### L5 Labs Sky130 Id-Vgs
 
 
-## L6 Labs Sky130 Vt
+### L6 Labs Sky130 Vt
 
 
-## CMOS voltage transfer characteristics (VTC)
-## L1 MOSFET as a switch
+### CMOS voltage transfer characteristics (VTC)
+### L1 MOSFET as a switch
 We will now look at the device parameters from the switch point of view.
 
 <img width="877" height="360" alt="Screenshot 2026-06-05 094159" src="https://github.com/user-attachments/assets/29bfcea8-0d15-41ea-bc35-ea7afa029b56" />
@@ -313,7 +313,7 @@ When |Vgs|>Vt, device is ON and it acts as closed switch
 
 <img width="1082" height="591" alt="image" src="https://github.com/user-attachments/assets/4ab676ad-bf29-42e3-bddd-438e51d3ed40" />
 
-## L2 Introduction to standard MOS voltage current parameters
+### L2 Introduction to standard MOS voltage current parameters
 
 We are trying to get the equivalent circuit of CMOS when Vin is 'high' and 'low', so that we can get the Voltage Transfer Characteristics (VTC) and therefore calculate the delay of the cell.
  
@@ -331,7 +331,7 @@ Let us give the naming convention of the CMOS:
 
  current in both the condition is Idsn(drain to source for NMOS) and Idsp(Drain to source for PMOS) And Idsp = -Idsn, both are opposite in direction to each other.
 
- ## L3 PMOS/NMOS drain current vs drain voltage
+ ### L3 PMOS/NMOS drain current vs drain voltage
 
  <img width="378" height="591" alt="image" src="https://github.com/user-attachments/assets/9e3e1b01-f900-4f1a-8b4e-afbf3c1ecc10" />
 
@@ -339,7 +339,7 @@ Let us give the naming convention of the CMOS:
 
  <img width="838" height="423" alt="image" src="https://github.com/user-attachments/assets/f4e784ed-f881-437e-92a6-9812decaabba" />
 
-## L4 Step1- Convert PMOS gate-source-voltage to Vin
+### L4 Step1- Convert PMOS gate-source-voltage to Vin
 
 We have seen various internal voltages, but actually in terms of user's perspective we can't see the internal voltages and only see the external Vin and Vout. From these we calculate the VTC and eventually we get to know the delay.
 
@@ -353,7 +353,7 @@ We will try to plot the graph of PMOS in terms of Idsn, the plot will be as show
 
 <img width="821" height="423" alt="image" src="https://github.com/user-attachments/assets/d295a218-6464-4298-aeec-e807037d1664" />
 
-## L5 Step2 & Step3- Convert PMOS and NMOS drain-source-voltage to Vout
+### L5 Step2 & Step3- Convert PMOS and NMOS drain-source-voltage to Vout
 Now we will be converting the Vdsp and function of output voltage Vin. We know Vdsp = Vout-Vdd.
 Let us convert Vdsp into Vout. So to get Vout there is a shift of Vdd towards left hand side.
 
@@ -376,7 +376,7 @@ It is actually simple as Vgsn = Vin and Vdsn = Vout, directly we can get the gra
 
 <img width="875" height="369" alt="image" src="https://github.com/user-attachments/assets/19e4b690-dbfe-4244-b268-a03f38ccdcb5" />
 
-## L6 Step4- Merge PMOS-NMOS load curves and plot VTC
+### L6 Step4- Merge PMOS-NMOS load curves and plot VTC
 Now,merge the above two curves and obtain the voltage transfer characteristics(VTC) for CMOS inverter.
 
 <img width="964" height="288" alt="image" src="https://github.com/user-attachments/assets/7eabf5f5-ae93-4c64-bd35-0f8dbe32016c" />
@@ -395,7 +395,7 @@ When Vin = 2V, Vout = 0V; NMOS is in linear region and PMOS is Cut Off.
 
 <img width="1091" height="508" alt="image" src="https://github.com/user-attachments/assets/06cf38f2-b4bf-44c7-a1f8-c92c266eb17f" />
 
-# NgspiceSky130-Day3-CMOS switching threshold and dynamic simulations
+
 
 ## DAY 3 - CMOS Switching threshold and dynamic simulations
 ### Voltage transfer characteristics – SPICE simulations
@@ -537,7 +537,69 @@ Rise delay decreases with increase in PMOS width, this shows the time required t
 
  
 
-## DAY 4
+## DAY 4-CMOS Noise Margin robustness evaluation
+### Static behaviour evaluation-CMOS inverter robustness-Noise Margin
+### L1 Introduction to Noise Margin
+Now we will learn CMOS inverter's robustness towards the Noise Margin. Also we see the Noise margin evaluation for CMOS inverter. 
+
+Noise Margin: It is a measure of how much unwanted electrical noise a logic circuit can tolerate on its input without producing an incorrect output. 
+For example if we consider an ideal Inverter, for inputs 0/1 it gives output as 1/0. The slope of switch is infinite. 
+But practically the slope won't be infinite, due to presence of resistances and capacitances there will be delay. Therefore we will get a finite slope 
+
+<img width="911" height="571" alt="Screenshot 2026-06-05 115433" src="https://github.com/user-attachments/assets/463695c4-ea83-489a-8003-45a1704a281d" />
+
+whenever the input is between 0 to VIL(input low voltage); the output will be VOH(output high). 
+And whenever the input is between VIH(input high voltage) and Vdd; output will be VOL(output low voltage). 
+
+<img width="799" height="624" alt="Screenshot 2026-06-05 115556" src="https://github.com/user-attachments/assets/3a103fc7-12e7-48f7-be79-b141cc6304b3" />
+
+### L2 Noise Margin voltage paramters
+Considering the more practical scenarios and non idealities of an inverter, the curve we get is as shown below. So here the when the 0 output is VOH output is 0VOL as VOH will be output high for the next inverter which will be connected and 0 as it will be the output low for the next inverter. 
+Also, the slope is approximately -1, as for increase in input, output is reducing. 
+
+<img width="964" height="628" alt="Screenshot 2026-06-05 120022" src="https://github.com/user-attachments/assets/6d6b3d8d-7497-4c38-b422-62eda7c04c6f" />
+
+### L3 Noise margin equation and summary
+Now we will calculate the noise margin equation, for that we will plot the voltages on the same scale.
+
+<img width="700" height="404" alt="image" src="https://github.com/user-attachments/assets/f6e45cf0-689f-4804-9071-a90bedb4ff9c" />
+
+Noise margin High NH - value between VIH and VOH. 
+Noise Margin Low NL - value between VIL and VOL. 
+
+Any value which lies in between noise margins is considered either 1/0 and considered to be tolerable. Apart from this region the value is "Undefined" and the logic level can swing between 'high' and 'low'.
+
+<img width="841" height="521" alt="Screenshot 2026-06-05 120252" src="https://github.com/user-attachments/assets/04c18e50-b0c3-457e-b2c2-8e2348dd77a1" />
+
+<img width="888" height="548" alt="Screenshot 2026-06-05 120752" src="https://github.com/user-attachments/assets/f6105724-b4d2-4528-b4dc-decc920a4065" />
+
+### L4 Noise margin variation with respect to PMOS width
+We will evaluate the noise margin depending upon the PMOS width and ultimately prove that how CMOS inverter is robust to the noise margins.
+First, we will find the points where the slope = -1 and extend the lines towards x-y axis.
+
+<img width="1307" height="712" alt="Screenshot 2026-06-05 121139" src="https://github.com/user-attachments/assets/ed1716ee-9e30-46b9-8a22-0004ff17197c" />
+
+<img width="1326" height="587" alt="Screenshot 2026-06-05 133257" src="https://github.com/user-attachments/assets/6cb14026-fe48-4390-813d-fd181451ba9e" />
+
+<img width="1328" height="575" alt="Screenshot 2026-06-05 133324" src="https://github.com/user-attachments/assets/352be46a-f199-4de7-9084-35d43a69471e" />
+
+<img width="1314" height="601" alt="Screenshot 2026-06-05 133356" src="https://github.com/user-attachments/assets/a4a4e7f7-61c3-4dac-806e-7e808ae4d732" />
+
+<img width="1307" height="587" alt="Screenshot 2026-06-05 133417" src="https://github.com/user-attachments/assets/02bf165f-6b52-43f0-85e1-6d2a01d95700" />
+
+For (W/L)p=4(W/L)p and (W/L)p=5(W/L)p noise margins are same, so even if we increase the widths further noise margin will be static. 
+
+<img width="761" height="289" alt="Screenshot 2026-06-05 121227" src="https://github.com/user-attachments/assets/68735092-c2a3-4ed0-bd26-bb8933d0efea" />
+
+Here also we can verify the robustness of CMOS inverter. 
+Also we come to know the ranges for "Digital design" and "Analog design" in the CMOS inverter.
+
+<img width="1201" height="634" alt="Screenshot 2026-06-05 133755" src="https://github.com/user-attachments/assets/d255c8f6-46e7-4425-8f0e-46c6f503b5cf" />
+
+<img width="1193" height="621" alt="image" src="https://github.com/user-attachments/assets/952e5e9a-72f2-4d2c-95d8-e0eda183a8fd" />
+
+### L5 Sky130 Noise margin labs
+We will now plot Noise margins
 
 
 
