@@ -297,9 +297,18 @@ Observation 2 - The saturation current for lower nodes is low instead of being h
 <img width="1274" height="561" alt="Screenshot 2026-06-05 093531" src="https://github.com/user-attachments/assets/545421cc-182c-4f35-916a-7b36d9db1d55" />
 
 ### L5 Labs Sky130 Id-Vgs
- /home/vsduser/Pictures/Screenshots/Screenshot from 2026-06-05 15-27-01.png
+
+<img width="1461" height="645" alt="image" src="https://github.com/user-attachments/assets/ecc712f4-2ac5-4fca-9688-c5384a0437ae" />
+
+
+<img width="1537" height="639" alt="image" src="https://github.com/user-attachments/assets/eeaefb61-d7bf-4a9e-af55-664eb8417635" />
+
+
 
 ### L6 Labs Sky130 Vt
+<img width="917" height="742" alt="image" src="https://github.com/user-attachments/assets/92208646-1be8-4695-a00b-76e115b972fd" />
+
+<img width="1111" height="638" alt="image" src="https://github.com/user-attachments/assets/8f93a5ee-3684-4311-8592-a8fc77dacdbf" />
 
 
 ### CMOS voltage transfer characteristics (VTC)
@@ -438,6 +447,12 @@ And, SPICE waveform :  Wn= 0.375u, Wp= 0.9375u, Ln,p=0.25u; Wn/Ln=1.5, Wp/Lp=2.5
  -Observation :  the previous graph is left shifted slightly. This happens because NMOS is more stronger than PMOS in previous graph.
 
 ### L3 Labs Sky130 SPICE simulation for CMOS
+
+<img width="750" height="804" alt="image" src="https://github.com/user-attachments/assets/59854022-fb6a-4c0e-8a71-4a3ed8bd5971" />
+
+<img width="941" height="801" alt="image" src="https://github.com/user-attachments/assets/f4a6da85-01db-4d4e-97b6-d1d53fd5a7a9" />
+
+<img width="1134" height="650" alt="image" src="https://github.com/user-attachments/assets/88fa5a9e-f681-4f74-bfb7-b4822af9a557" />
 
 <img width="863" height="718" alt="image" src="https://github.com/user-attachments/assets/22bfe93d-23ec-458c-b39d-92d4b1dc6809" />
 
@@ -600,7 +615,11 @@ Also we come to know the ranges for "Digital design" and "Analog design" in the 
 
 ### L5 Sky130 Noise margin labs
 We will now plot Noise margins
+<img width="705" height="796" alt="image" src="https://github.com/user-attachments/assets/055c01cd-de52-40af-bd53-41e125be380e" />
 
+<img width="1192" height="809" alt="image" src="https://github.com/user-attachments/assets/74bd3a8c-68dc-4b5b-a60a-8c5ed2ec1123" />
+
+<img width="1026" height="612" alt="image" src="https://github.com/user-attachments/assets/2e2a57bb-6f0c-489a-b604-ce1002260dc0" />
 
 
 ## DAY 5 - CMOS power supply and device variation robustness evaluation
@@ -637,6 +656,14 @@ We will now plot Noise margins
  Ths causes major performance impact.
 
 ### L3 Sky130 Supply Variation Labs
+
+<img width="1600" height="770" alt="image" src="https://github.com/user-attachments/assets/c96c82d4-bebf-4cc0-b097-78c957e321b8" />
+
+<img width="1111" height="812" alt="image" src="https://github.com/user-attachments/assets/e619fbe1-50a8-4eb1-ab9f-9318c7144498" />
+
+<img width="1047" height="809" alt="image" src="https://github.com/user-attachments/assets/8131dac0-dd12-450c-99c5-2c09a9ec4a2f" />
+
+<img width="1277" height="702" alt="image" src="https://github.com/user-attachments/assets/24cfe18d-b8f5-4a43-9c69-280da40ffe9d" />
 
 
 ### Static behavior evaluation – CMOS inverter robustness – Device variation
@@ -709,22 +736,11 @@ As we see there is not much variation in Noise Margins in both the extreme cases
 
 ### L5 Sky130 Device Variation Labs
 
+<img width="1024" height="800" alt="image" src="https://github.com/user-attachments/assets/83f1c209-bacf-4328-9fbb-8b1639de593f" />
 
+<img width="1113" height="805" alt="image" src="https://github.com/user-attachments/assets/97f13543-73d6-4e79-bcb1-3e0ced83c358" />
 
-
-
-
-
-
-
-
-
-
-
- 
-
- 
-
+<img width="1055" height="742" alt="image" src="https://github.com/user-attachments/assets/6fd23148-2a5a-442d-a475-07dc321a7b59" />
 
 
 ## Tools Used
